@@ -57,6 +57,9 @@ header{
     width: 30px;
     height: 30px;
     border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
 }
 .field.active{
     background-color: var(--lighter-purple);
@@ -66,6 +69,12 @@ header{
     background-position: center;
     background-size: contain;
     background-color: var(--green);
+}
+.field.bomb{
+    background-color: orange;
+    background-image: url(./img/bomb.png);
+    background-position: center;
+    background-size: contain;
 }
 .gameSetting{
     background-color: var(--light-purple);
